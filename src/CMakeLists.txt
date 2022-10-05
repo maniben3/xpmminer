@@ -59,4 +59,3 @@ include_directories(
 add_subdirectory(blkmaker)
 add_subdirectory(common)
 add_subdirectory(CPU)
-add_subdirectory(OpenCL)
