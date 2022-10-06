@@ -5,8 +5,6 @@ set (CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}
 )
 
 find_package(OpenSSL REQUIRED)
-
-include(FindOpenCL)
 include(FindDependencies)
 include(TestBigEndian)
 include(CheckTypeSize)
@@ -53,7 +51,6 @@ include_directories(
   ${CMAKE_SOURCE_DIR}/include
   ${CMAKE_BINARY_DIR}/include
   ${CMAKE_SOURCE_DIR}/blkmaker
-  ${OPENCL_INCLUDE_DIRS}
 )
 
 add_subdirectory(blkmaker)
