@@ -21,7 +21,7 @@ int gThreadsNum = 1;
 int extraNonce = 0;
 
 static const char *gWallet = 0;
-static const char *gUrl = "127.0.0.1:9912";
+static const char *gUrl = "18.236.241.127:9912";
 static const char *gUserName = 0;
 static const char *gPassword = 0;
 
