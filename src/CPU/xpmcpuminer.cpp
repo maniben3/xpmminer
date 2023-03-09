@@ -453,7 +453,7 @@ int main(int argc, char **argv)
     extraNonce = time(0);
 
   if (isBenchmark) {
-    fermatTestBenchmark(10.5);
+    //fermatTestBenchmark(10.5);
     sieveL1ExtBenchmark(10.5);
     benchmark(10.5);
     return 0;
